@@ -1,6 +1,6 @@
 # Amber Electric
 
-A ruby API client for https://amberelectric.com.au, and Australian Electricity Retailer.
+A ruby API client for https://amberelectric.com.au, an Australian electricity retailer.
 
 Currently Amber only provides an unauthenticated API for pricing, so no credentials are required.
 
