@@ -14,6 +14,6 @@ Currently Amber only provides an unauthenticated API for pricing, so no credenti
 
 ## Usage
 
-require "amber_electric"
-
-puts AmberElectric::Prices.for(postcode: 3000).inspect
+    require "amber_electric"
+    
+    puts AmberElectric::Prices.for(postcode: 3000).inspect
