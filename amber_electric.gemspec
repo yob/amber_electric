@@ -7,10 +7,11 @@ Gem::Specification.new do |s|
   s.author            = "James Healy"
   s.email             = ["james@yob.id.au"]
   s.homepage          = "http://github.com/yob/amber_electric"
-  s.test_files        = [ "spec/**/*" ]
   s.files             = [ "lib/amber_electric.rb", "CHANGELOG","MIT-LICENSE", "README.md" ]
 
   s.required_ruby_version = ">=2.2"
+
+  s.add_dependency("tzinfo")
 
   s.add_development_dependency("rake")
   s.add_development_dependency("rspec", "~>3.0")
